@@ -1,13 +1,15 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "Victor's web"
+  title: "Yuchen Chen(Vitcor)"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: CV.pdf
+        text: CV
 
 format:
   html:
